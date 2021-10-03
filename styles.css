@@ -14,14 +14,14 @@
     line-height: 10%;
     font-weight: normal;
     font-family: oblique;
-}*/
+}
 
 
 
  ul {
-  list-style: none;
-  display: inline;
+  list-style-type: none;
   margin: 0;
+  display: block;
   padding: 0;
 }
 
@@ -100,11 +100,7 @@ form input {
   height: 50px;
 }
 
-.filters input::-webkit-input-placeholder {
-  font-weight: bold;
-  font-size: 10px;
-  line-height: 3;
-}
+
 
 .city {
   display: flex;
@@ -353,6 +349,7 @@ footer {
   color: black;
   display: flex;
   flex-direction: row;
+  margin-left: -10px;
 }
 
 footer ul {
@@ -532,6 +529,8 @@ li:first-child {
   footer {
     display: flex;
     flex-direction: column;
+    width: 120%;
+    margin-left: -50px;
   }
 
   footer ul li {
@@ -543,22 +542,42 @@ li:first-child {
 
   #wrapper a {
     margin-top: -40px;
-    
+  }
+
+  .city {
+    position: relative;
+    top: 50px;
   }
   
 
   .accommodations {
-    width: 70%;
+      justify-content: center;
+      justify-content: space-between;
+      padding: 120px;
+      height: 50%;
+      width: 70%;
+      margin-left: 30px;
+  }
+
+  .accommodations figure {
+    width: 40%;
+    height: 260px;
+  }
+
+  .accommodations figure:nth-child(2) {
+    width: 40%;
+
   }
 
   .popular {
-    width: 70%;
-    margin-right: 5%;
-    margin-top: 70px;
+    width: 83%;
+    margin-right: -30px;
+    margin-top: 20%;
   }
 
   .more {
-    margin-bottom: 10px;
+    position: relative;
+    top: 1070px;
   }
 
   .filters {
@@ -582,6 +601,12 @@ li:first-child {
   footer {
     margin-top: 90px;
     width: 100%;
+    padding: 50px;
+    margin-left: -10px;
+  }
+
+  footer ul {
+    margin-right: 50px;
   }
 }
 
