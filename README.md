@@ -21,4 +21,4 @@ Requirements:
 
 live Project:
 
-	- Project URL on Host provider (Netlify/Github Pages/Similar): [insert live url here]
+- Project URL on Host provider (Netlify/Github Pages/Similar): [https://donavan2175.github.io/DonavanArmstrong_2_08-25-2021_A/]
