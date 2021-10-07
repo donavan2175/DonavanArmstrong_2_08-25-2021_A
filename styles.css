@@ -408,7 +408,7 @@ li:first-child {
   }
 
   #form {
-    margin-top: 50%;
+    margin-top: 10%;
   
   }
 
@@ -431,6 +431,7 @@ li:first-child {
     width: 100%;
     font-size: 20px;
     margin-left: -80px;
+    margin-top: -30%;
   }
 
   .accommodations {
@@ -440,8 +441,9 @@ li:first-child {
     align-items: center;
     margin: auto;
     margin-top: 50px;
-    width: 50%;
+    width: 90%;
     padding: 80px;
+    margin-left: -20%;
   }
 
   .accommodations figure {
@@ -455,21 +457,22 @@ li:first-child {
     height: 150px;
   }
 
+
   .accommodations figcaption {
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .more {
     position: relative;
-    top: 2050px;
-    left: -100px;
+    top: 2150px;
+    left: 10px;
   }
   
 
   .popular {
     width: 80%;
-    margin-top: 420%;
+    margin-top: 450%;
     position: relative;
     left: 70px;
   }
@@ -483,12 +486,19 @@ li:first-child {
   .popular figure {
     width: 100%;
     margin-left: 1px;
-    margin-bottom: 50px;
+    margin-top: -20%;
+    margin-bottom: 30%;
+    padding: 5px;
   }
 
   .popular figcaption {
     font-size: 12px;
     margin-right: 20px;
+  }
+
+  .popular figure #image3 {
+    width: 700%;
+
   }
 
   #activity {
@@ -544,6 +554,10 @@ li:first-child {
     margin-top: -40px;
   }
 
+  #form {
+    margin-top: 10px;
+  }
+
   .city {
     position: relative;
     top: 50px;
@@ -556,7 +570,7 @@ li:first-child {
       padding: 120px;
       height: 50%;
       width: 70%;
-      margin-left: 30px;
+      margin-right: 10px;
   }
 
   .accommodations figure {
@@ -571,8 +585,13 @@ li:first-child {
 
   .popular {
     width: 83%;
-    margin-right: -30px;
-    margin-top: 20%;
+    margin-right: -10px;
+    margin-top: 10%;
+  }
+
+  .popular figcaption {
+    font-size: 15px;
+    margin-left: 20%;
   }
 
   .more {
