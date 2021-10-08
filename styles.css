@@ -349,7 +349,7 @@ footer {
   color: black;
   display: flex;
   flex-direction: row;
-  margin-left: -10px;
+  margin-right: 10px;
 }
 
 footer ul {
@@ -496,10 +496,15 @@ li:first-child {
     margin-right: 20px;
   }
 
-  .popular figure #image3 {
-    width: 700%;
+  .popular img[src="images/febrian-zakaria-sjvU0THccQA-unsplash.jpg"] {
+    width: 1500px;
+    height: 100px;
+    /* css */
+}
 
-  }
+.popular figure:nth-of-type(3) {
+  height: 130px;
+}
 
   #activity {
     display: flex;
@@ -513,6 +518,10 @@ li:first-child {
     background-color: white;
     position: relative;
     right: 50px;
+  }
+
+  #activity h2 {
+    text-align: center;
   }
 
   #activity h5 {
@@ -540,7 +549,7 @@ li:first-child {
     display: flex;
     flex-direction: column;
     width: 120%;
-    margin-left: -50px;
+    margin-left: -40px;
   }
 
   footer ul li {
